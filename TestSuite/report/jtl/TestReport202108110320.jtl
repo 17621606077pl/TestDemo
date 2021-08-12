@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="722" it="0" lt="721" ct="634" ts="1628666432611" s="false" lb="获取拉钩网职位信息" rc="200" rm="OK" tn="断言 1-1" dt="text" by="313" sby="1319" ng="1" na="1">
+  <assertionResult>
+    <name>checkStatus</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>jp@gc - JSON Path Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>No results for path: $[&apos;code&apos;]</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>jp@gc - JSON Path Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Missing property in path $[&apos;content&apos;]</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="64" it="0" lt="64" ct="0" ts="1628666433382" s="false" lb="获取拉钩网职位信息" rc="200" rm="OK" tn="断言 1-1" dt="text" by="313" sby="1319" ng="1" na="1">
+  <assertionResult>
+    <name>checkStatus</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>jp@gc - JSON Path Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>No results for path: $[&apos;code&apos;]</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>jp@gc - JSON Path Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Missing property in path $[&apos;content&apos;]</failureMessage>
+  </assertionResult>
+</httpSample>
+
+</testResults>

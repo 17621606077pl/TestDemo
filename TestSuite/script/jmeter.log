@@ -1,0 +1,848 @@
+2018-09-29 22:28:55,607 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2018-09-29 22:28:55,630 INFO o.a.j.JMeter: Loading user properties from: C:\apache-jmeter-4.0\bin\user.properties
+2018-09-29 22:28:55,631 INFO o.a.j.JMeter: Loading system properties from: C:\apache-jmeter-4.0\bin\system.properties
+2018-09-29 22:28:55,640 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2018-09-29 22:28:55,640 INFO o.a.j.JMeter: Version 4.0 r1823414
+2018-09-29 22:28:55,640 INFO o.a.j.JMeter: java.version=1.8.0_91
+2018-09-29 22:28:55,640 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) Client VM
+2018-09-29 22:28:55,641 INFO o.a.j.JMeter: os.name=Windows 7
+2018-09-29 22:28:55,641 INFO o.a.j.JMeter: os.arch=x86
+2018-09-29 22:28:55,641 INFO o.a.j.JMeter: os.version=6.1
+2018-09-29 22:28:55,641 INFO o.a.j.JMeter: file.encoding=GBK
+2018-09-29 22:28:55,641 INFO o.a.j.JMeter: Max memory     =1073741824
+2018-09-29 22:28:55,641 INFO o.a.j.JMeter: Available Processors =4
+2018-09-29 22:28:55,651 INFO o.a.j.JMeter: Default Locale=English (EN)
+2018-09-29 22:28:55,652 INFO o.a.j.JMeter: JMeter  Locale=Chinese (China)
+2018-09-29 22:28:55,652 INFO o.a.j.JMeter: JMeterHome=C:\apache-jmeter-4.0
+2018-09-29 22:28:55,652 INFO o.a.j.JMeter: user.dir  =C:\apache-jmeter-4.0\TestSuite\script
+2018-09-29 22:28:55,652 INFO o.a.j.JMeter: PWD       =C:\apache-jmeter-4.0\TestSuite\script
+2018-09-29 22:28:55,654 INFO o.a.j.JMeter: IP: 192.168.0.102 Name: irain-pc FullName: 192.168.0.102
+2018-09-29 22:28:55,657 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'c:\result'
+2018-09-29 22:28:55,664 INFO o.a.j.s.FileServer: Default base='C:\apache-jmeter-4.0\TestSuite\script'
+2018-09-29 22:28:55,671 INFO o.a.j.s.FileServer: Set new base='C:\apache-jmeter-4.0\TestSuite\script'
+2018-09-29 22:28:55,918 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-09-29 22:28:55,934 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-09-29 22:28:55,941 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
+2018-09-29 22:28:55,957 INFO o.a.j.s.SaveService: Loading file: HTTP请求.jmx
+2018-09-29 22:28:56,063 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2018-09-29 22:28:56,106 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-09-29 22:28:56,106 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-09-29 22:28:56,106 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-09-29 22:28:56,107 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-09-29 22:28:56,107 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-09-29 22:28:56,107 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-09-29 22:28:56,137 INFO o.a.j.JMeter: Creating summariser <summary>
+2018-09-29 22:28:56,151 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2018-09-29 22:28:56,152 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: http.jtl
+2018-09-29 22:28:56,152 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\apache-jmeter-4.0\bin\reportgenerator.properties
+2018-09-29 22:28:56,152 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2018-09-29 22:28:56,160 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2018-09-29 22:28:56,166 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2018-09-29 22:28:56,166 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction : {} is empty, not APDEX per transaction customization
+2018-09-29 22:28:56,166 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2018-09-29 22:28:56,166 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2018-09-29 22:28:56,166 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2018-09-29 22:28:56,166 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2018-09-29 22:28:56,166 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2018-09-29 22:28:56,167 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2018-09-29 22:28:56,176 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2018-09-29 22:28:56,176 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2018-09-29 22:28:56,177 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2018-09-29 22:28:56,178 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2018-09-29 22:28:56,178 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2018-09-29 22:28:56,178 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2018-09-29 22:28:56,179 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2018-09-29 22:28:56,180 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2018-09-29 22:28:56,181 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2018-09-29 22:28:56,182 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2018-09-29 22:28:56,182 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2018-09-29 22:28:56,183 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2018-09-29 22:28:56,189 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-09-29 22:28:56,190 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-09-29 22:28:56,190 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-09-29 22:28:56,196 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-09-29 22:28:56,196 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-09-29 22:28:57,038 INFO k.a.j.p.PerfMonCollector: PerfMon metrics will be stored in C:\Users\ADMINI~1\AppData\Local\Temp\perfmon_2361839933093464464.jtl
+2018-09-29 22:28:58,090 INFO k.a.j.p.PerfMonCollector: Can't connect TCP transport for host: localhost/127.0.0.1:4444
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_91]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_91]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_91]
+	at kg.apc.perfmon.client.TransportFactory.TCPInstance(TransportFactory.java:91) ~[perfmon-2.2.2.jar:?]
+	at kg.apc.jmeter.perfmon.PerfMonCollector.getConnector(PerfMonCollector.java:243) [jmeter-plugins-perfmon-2.1.jar:?]
+	at kg.apc.jmeter.perfmon.PerfMonCollector.initiateConnector(PerfMonCollector.java:228) [jmeter-plugins-perfmon-2.1.jar:?]
+	at kg.apc.jmeter.perfmon.PerfMonCollector.initiateConnectors(PerfMonCollector.java:175) [jmeter-plugins-perfmon-2.1.jar:?]
+	at kg.apc.jmeter.perfmon.PerfMonCollector.testStarted(PerfMonCollector.java:126) [jmeter-plugins-perfmon-2.1.jar:?]
+	at org.apache.jmeter.reporters.ResultCollector.testStarted(ResultCollector.java:350) [ApacheJMeter_core.jar:4.0 r1823414]
+	at kg.apc.jmeter.vizualizers.CorrectedResultCollector.testStarted(CorrectedResultCollector.java:28) [jmeter-plugins-cmn-jmeter-0.4.jar:?]
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfStart(StandardJMeterEngine.java:215) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:384) [ApacheJMeter_core.jar:4.0 r1823414]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_91]
+2018-09-29 22:28:58,095 ERROR k.a.j.p.PerfMonCollector: Problems creating connector
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_91]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_91]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_91]
+	at kg.apc.perfmon.client.TransportFactory.TCPInstance(TransportFactory.java:91) ~[perfmon-2.2.2.jar:?]
+	at kg.apc.jmeter.perfmon.PerfMonCollector.getConnector(PerfMonCollector.java:243) ~[jmeter-plugins-perfmon-2.1.jar:?]
+	at kg.apc.jmeter.perfmon.PerfMonCollector.initiateConnector(PerfMonCollector.java:228) [jmeter-plugins-perfmon-2.1.jar:?]
+	at kg.apc.jmeter.perfmon.PerfMonCollector.initiateConnectors(PerfMonCollector.java:175) [jmeter-plugins-perfmon-2.1.jar:?]
+	at kg.apc.jmeter.perfmon.PerfMonCollector.testStarted(PerfMonCollector.java:126) [jmeter-plugins-perfmon-2.1.jar:?]
+	at org.apache.jmeter.reporters.ResultCollector.testStarted(ResultCollector.java:350) [ApacheJMeter_core.jar:4.0 r1823414]
+	at kg.apc.jmeter.vizualizers.CorrectedResultCollector.testStarted(CorrectedResultCollector.java:28) [jmeter-plugins-cmn-jmeter-0.4.jar:?]
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfStart(StandardJMeterEngine.java:215) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:384) [ApacheJMeter_core.jar:4.0 r1823414]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_91]
+2018-09-29 22:28:59,098 INFO k.a.j.p.PerfMonCollector: Can't connect TCP transport for host: localhost/127.0.0.1:4444
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_91]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_91]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_91]
+	at kg.apc.perfmon.client.TransportFactory.TCPInstance(TransportFactory.java:91) ~[perfmon-2.2.2.jar:?]
+	at kg.apc.jmeter.perfmon.PerfMonCollector.getConnector(PerfMonCollector.java:243) [jmeter-plugins-perfmon-2.1.jar:?]
+	at kg.apc.jmeter.perfmon.PerfMonCollector.initiateConnector(PerfMonCollector.java:228) [jmeter-plugins-perfmon-2.1.jar:?]
+	at kg.apc.jmeter.perfmon.PerfMonCollector.initiateConnectors(PerfMonCollector.java:175) [jmeter-plugins-perfmon-2.1.jar:?]
+	at kg.apc.jmeter.perfmon.PerfMonCollector.testStarted(PerfMonCollector.java:126) [jmeter-plugins-perfmon-2.1.jar:?]
+	at org.apache.jmeter.reporters.ResultCollector.testStarted(ResultCollector.java:350) [ApacheJMeter_core.jar:4.0 r1823414]
+	at kg.apc.jmeter.vizualizers.CorrectedResultCollector.testStarted(CorrectedResultCollector.java:28) [jmeter-plugins-cmn-jmeter-0.4.jar:?]
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfStart(StandardJMeterEngine.java:215) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:384) [ApacheJMeter_core.jar:4.0 r1823414]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_91]
+2018-09-29 22:28:59,098 ERROR k.a.j.p.PerfMonCollector: Problems creating connector
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_91]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_91]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_91]
+	at kg.apc.perfmon.client.TransportFactory.TCPInstance(TransportFactory.java:91) ~[perfmon-2.2.2.jar:?]
+	at kg.apc.jmeter.perfmon.PerfMonCollector.getConnector(PerfMonCollector.java:243) ~[jmeter-plugins-perfmon-2.1.jar:?]
+	at kg.apc.jmeter.perfmon.PerfMonCollector.initiateConnector(PerfMonCollector.java:228) [jmeter-plugins-perfmon-2.1.jar:?]
+	at kg.apc.jmeter.perfmon.PerfMonCollector.initiateConnectors(PerfMonCollector.java:175) [jmeter-plugins-perfmon-2.1.jar:?]
+	at kg.apc.jmeter.perfmon.PerfMonCollector.testStarted(PerfMonCollector.java:126) [jmeter-plugins-perfmon-2.1.jar:?]
+	at org.apache.jmeter.reporters.ResultCollector.testStarted(ResultCollector.java:350) [ApacheJMeter_core.jar:4.0 r1823414]
+	at kg.apc.jmeter.vizualizers.CorrectedResultCollector.testStarted(CorrectedResultCollector.java:28) [jmeter-plugins-cmn-jmeter-0.4.jar:?]
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfStart(StandardJMeterEngine.java:215) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:384) [ApacheJMeter_core.jar:4.0 r1823414]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_91]
+2018-09-29 22:29:00,099 INFO k.a.j.p.PerfMonCollector: Can't connect TCP transport for host: localhost/127.0.0.1:4444
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_91]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_91]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_91]
+	at kg.apc.perfmon.client.TransportFactory.TCPInstance(TransportFactory.java:91) ~[perfmon-2.2.2.jar:?]
+	at kg.apc.jmeter.perfmon.PerfMonCollector.getConnector(PerfMonCollector.java:243) [jmeter-plugins-perfmon-2.1.jar:?]
+	at kg.apc.jmeter.perfmon.PerfMonCollector.initiateConnector(PerfMonCollector.java:228) [jmeter-plugins-perfmon-2.1.jar:?]
+	at kg.apc.jmeter.perfmon.PerfMonCollector.initiateConnectors(PerfMonCollector.java:175) [jmeter-plugins-perfmon-2.1.jar:?]
+	at kg.apc.jmeter.perfmon.PerfMonCollector.testStarted(PerfMonCollector.java:126) [jmeter-plugins-perfmon-2.1.jar:?]
+	at org.apache.jmeter.reporters.ResultCollector.testStarted(ResultCollector.java:350) [ApacheJMeter_core.jar:4.0 r1823414]
+	at kg.apc.jmeter.vizualizers.CorrectedResultCollector.testStarted(CorrectedResultCollector.java:28) [jmeter-plugins-cmn-jmeter-0.4.jar:?]
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfStart(StandardJMeterEngine.java:215) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:384) [ApacheJMeter_core.jar:4.0 r1823414]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_91]
+2018-09-29 22:29:00,099 ERROR k.a.j.p.PerfMonCollector: Problems creating connector
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_91]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_91]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_91]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_91]
+	at kg.apc.perfmon.client.TransportFactory.TCPInstance(TransportFactory.java:91) ~[perfmon-2.2.2.jar:?]
+	at kg.apc.jmeter.perfmon.PerfMonCollector.getConnector(PerfMonCollector.java:243) ~[jmeter-plugins-perfmon-2.1.jar:?]
+	at kg.apc.jmeter.perfmon.PerfMonCollector.initiateConnector(PerfMonCollector.java:228) [jmeter-plugins-perfmon-2.1.jar:?]
+	at kg.apc.jmeter.perfmon.PerfMonCollector.initiateConnectors(PerfMonCollector.java:175) [jmeter-plugins-perfmon-2.1.jar:?]
+	at kg.apc.jmeter.perfmon.PerfMonCollector.testStarted(PerfMonCollector.java:126) [jmeter-plugins-perfmon-2.1.jar:?]
+	at org.apache.jmeter.reporters.ResultCollector.testStarted(ResultCollector.java:350) [ApacheJMeter_core.jar:4.0 r1823414]
+	at kg.apc.jmeter.vizualizers.CorrectedResultCollector.testStarted(CorrectedResultCollector.java:28) [jmeter-plugins-cmn-jmeter-0.4.jar:?]
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfStart(StandardJMeterEngine.java:215) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:384) [ApacheJMeter_core.jar:4.0 r1823414]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_91]
+2018-09-29 22:29:00,111 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-09-29 22:29:00,112 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-09-29 22:29:00,112 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-09-29 22:29:00,112 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-09-29 22:29:00,117 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:00,117 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:00,117 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:00,120 INFO o.a.j.JMeter: 正在运行的测试 (1538231340120)
+2018-09-29 22:29:00,177 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : HTTP请求
+2018-09-29 22:29:00,177 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group HTTP请求.
+2018-09-29 22:29:00,177 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-09-29 22:29:00,178 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=100 ramp-up=100 perThread=1000.0 delayedStart=false
+2018-09-29 22:29:00,210 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-1
+2018-09-29 22:29:00,253 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = irain-pc
+2018-09-29 22:29:00,271 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-09-29 22:29:00,305 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-09-29 22:29:00,305 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-09-29 22:29:00,535 INFO o.a.j.r.Summariser: summary +      1 in 00:00:00 =    2.4/s Avg:   197 Min:   197 Max:   197 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2018-09-29 22:29:00,862 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-1
+2018-09-29 22:29:00,862 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-1
+2018-09-29 22:29:01,117 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:01,117 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:01,117 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:01,203 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-2
+2018-09-29 22:29:01,459 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-2
+2018-09-29 22:29:01,460 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-2
+2018-09-29 22:29:02,117 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:02,117 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:02,117 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:02,208 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-3
+2018-09-29 22:29:02,473 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-3
+2018-09-29 22:29:02,474 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-3
+2018-09-29 22:29:03,118 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:03,118 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:03,118 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:03,209 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-4
+2018-09-29 22:29:03,568 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-4
+2018-09-29 22:29:03,568 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-4
+2018-09-29 22:29:04,118 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:04,118 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:04,118 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:04,210 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-5
+2018-09-29 22:29:04,491 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-5
+2018-09-29 22:29:04,491 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-5
+2018-09-29 22:29:05,120 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:05,120 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:05,120 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:05,209 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-6
+2018-09-29 22:29:05,452 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-6
+2018-09-29 22:29:05,453 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-6
+2018-09-29 22:29:06,121 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:06,121 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:06,121 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:06,214 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-7
+2018-09-29 22:29:06,487 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-7
+2018-09-29 22:29:06,487 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-7
+2018-09-29 22:29:07,121 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:07,121 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:07,121 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:07,214 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-8
+2018-09-29 22:29:07,511 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-8
+2018-09-29 22:29:07,512 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-8
+2018-09-29 22:29:08,121 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:08,121 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:08,121 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:08,214 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-9
+2018-09-29 22:29:08,464 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-9
+2018-09-29 22:29:08,464 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-9
+2018-09-29 22:29:09,121 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:09,121 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:09,121 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:09,214 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-10
+2018-09-29 22:29:09,488 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-10
+2018-09-29 22:29:09,488 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-10
+2018-09-29 22:29:10,121 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:10,121 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:10,121 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:10,221 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-11
+2018-09-29 22:29:10,464 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-11
+2018-09-29 22:29:10,464 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-11
+2018-09-29 22:29:11,121 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:11,121 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:11,121 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:11,225 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-12
+2018-09-29 22:29:11,470 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-12
+2018-09-29 22:29:11,470 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-12
+2018-09-29 22:29:12,121 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:12,121 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:12,121 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:12,220 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-13
+2018-09-29 22:29:12,542 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-13
+2018-09-29 22:29:12,542 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-13
+2018-09-29 22:29:13,122 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:13,122 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:13,122 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:13,220 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-14
+2018-09-29 22:29:13,522 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-14
+2018-09-29 22:29:13,523 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-14
+2018-09-29 22:29:14,122 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:14,122 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:14,122 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:14,222 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-15
+2018-09-29 22:29:14,464 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-15
+2018-09-29 22:29:14,465 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-15
+2018-09-29 22:29:15,122 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:15,122 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:15,122 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:15,224 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-16
+2018-09-29 22:29:15,499 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-16
+2018-09-29 22:29:15,499 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-16
+2018-09-29 22:29:16,122 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:16,122 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:16,122 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:16,228 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-17
+2018-09-29 22:29:16,490 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-17
+2018-09-29 22:29:16,490 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-17
+2018-09-29 22:29:17,122 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:17,122 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:17,122 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:17,225 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-18
+2018-09-29 22:29:17,456 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-18
+2018-09-29 22:29:17,456 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-18
+2018-09-29 22:29:18,122 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:18,122 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:18,122 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:18,225 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-19
+2018-09-29 22:29:18,499 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-19
+2018-09-29 22:29:18,499 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-19
+2018-09-29 22:29:19,122 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:19,122 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:19,122 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:19,226 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-20
+2018-09-29 22:29:19,471 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-20
+2018-09-29 22:29:19,471 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-20
+2018-09-29 22:29:20,122 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:20,122 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:20,122 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:20,228 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-21
+2018-09-29 22:29:20,462 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-21
+2018-09-29 22:29:20,462 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-21
+2018-09-29 22:29:21,123 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:21,123 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:21,123 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:21,229 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-22
+2018-09-29 22:29:21,503 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-22
+2018-09-29 22:29:21,504 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-22
+2018-09-29 22:29:22,126 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:22,126 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:22,126 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:22,229 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-23
+2018-09-29 22:29:22,469 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-23
+2018-09-29 22:29:22,470 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-23
+2018-09-29 22:29:23,134 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:23,134 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:23,134 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:23,232 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-24
+2018-09-29 22:29:23,471 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-24
+2018-09-29 22:29:23,471 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-24
+2018-09-29 22:29:24,135 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:24,135 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:24,135 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:24,239 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-25
+2018-09-29 22:29:24,529 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-25
+2018-09-29 22:29:24,529 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-25
+2018-09-29 22:29:25,135 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:25,135 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:25,135 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:25,232 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-26
+2018-09-29 22:29:25,523 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-26
+2018-09-29 22:29:25,523 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-26
+2018-09-29 22:29:26,152 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:26,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:26,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:26,251 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-27
+2018-09-29 22:29:26,495 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-27
+2018-09-29 22:29:26,495 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-27
+2018-09-29 22:29:27,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:27,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:27,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:27,233 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-28
+2018-09-29 22:29:27,529 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-28
+2018-09-29 22:29:27,529 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-28
+2018-09-29 22:29:28,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:28,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:28,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:28,240 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-29
+2018-09-29 22:29:28,517 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-29
+2018-09-29 22:29:28,517 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-29
+2018-09-29 22:29:29,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:29,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:29,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:29,235 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-30
+2018-09-29 22:29:29,454 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-30
+2018-09-29 22:29:29,454 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-30
+2018-09-29 22:29:30,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:30,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:30,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:30,239 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-31
+2018-09-29 22:29:30,388 INFO o.a.j.r.Summariser: summary +     90 in 00:00:30 =    3.0/s Avg:    90 Min:    48 Max:   256 Err:     0 (0.00%) Active: 1 Started: 31 Finished: 30
+2018-09-29 22:29:30,389 INFO o.a.j.r.Summariser: summary =     91 in 00:00:30 =    3.0/s Avg:    91 Min:    48 Max:   256 Err:     0 (0.00%)
+2018-09-29 22:29:30,571 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-31
+2018-09-29 22:29:30,571 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-31
+2018-09-29 22:29:31,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:31,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:31,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:31,239 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-32
+2018-09-29 22:29:31,522 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-32
+2018-09-29 22:29:31,522 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-32
+2018-09-29 22:29:32,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:32,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:32,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:32,240 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-33
+2018-09-29 22:29:32,499 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-33
+2018-09-29 22:29:32,499 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-33
+2018-09-29 22:29:33,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:33,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:33,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:33,243 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-34
+2018-09-29 22:29:33,611 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-34
+2018-09-29 22:29:33,611 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-34
+2018-09-29 22:29:34,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:34,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:34,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:34,248 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-35
+2018-09-29 22:29:34,491 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-35
+2018-09-29 22:29:34,491 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-35
+2018-09-29 22:29:35,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:35,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:35,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:35,246 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-36
+2018-09-29 22:29:35,470 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-36
+2018-09-29 22:29:35,470 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-36
+2018-09-29 22:29:36,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:36,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:36,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:36,250 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-37
+2018-09-29 22:29:36,542 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-37
+2018-09-29 22:29:36,542 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-37
+2018-09-29 22:29:37,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:37,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:37,153 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:37,251 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-38
+2018-09-29 22:29:37,493 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-38
+2018-09-29 22:29:37,493 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-38
+2018-09-29 22:29:38,154 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:38,154 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:38,154 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:38,258 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-39
+2018-09-29 22:29:38,550 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-39
+2018-09-29 22:29:38,550 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-39
+2018-09-29 22:29:39,154 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:39,154 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:39,154 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:39,254 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-40
+2018-09-29 22:29:39,629 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-40
+2018-09-29 22:29:39,629 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-40
+2018-09-29 22:29:40,154 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:40,154 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:40,154 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:40,256 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-41
+2018-09-29 22:29:40,497 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-41
+2018-09-29 22:29:40,497 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-41
+2018-09-29 22:29:41,154 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:41,154 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:41,154 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:41,263 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-42
+2018-09-29 22:29:41,519 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-42
+2018-09-29 22:29:41,519 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-42
+2018-09-29 22:29:42,154 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:42,154 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:42,154 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:42,266 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-43
+2018-09-29 22:29:42,544 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-43
+2018-09-29 22:29:42,545 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-43
+2018-09-29 22:29:43,154 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:43,154 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:43,154 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:43,264 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-44
+2018-09-29 22:29:43,506 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-44
+2018-09-29 22:29:43,506 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-44
+2018-09-29 22:29:44,154 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:44,154 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:44,154 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:44,301 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-45
+2018-09-29 22:29:44,540 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-45
+2018-09-29 22:29:44,540 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-45
+2018-09-29 22:29:45,154 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:45,154 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:45,155 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:45,263 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-46
+2018-09-29 22:29:45,591 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-46
+2018-09-29 22:29:45,591 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-46
+2018-09-29 22:29:46,156 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:46,156 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:46,156 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:46,268 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-47
+2018-09-29 22:29:46,793 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-47
+2018-09-29 22:29:46,794 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-47
+2018-09-29 22:29:47,156 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:47,156 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:47,156 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:47,265 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-48
+2018-09-29 22:29:47,534 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-48
+2018-09-29 22:29:47,534 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-48
+2018-09-29 22:29:48,156 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:48,156 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:48,156 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:48,301 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-49
+2018-09-29 22:29:48,608 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-49
+2018-09-29 22:29:48,608 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-49
+2018-09-29 22:29:49,156 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:49,156 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:49,156 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:49,269 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-50
+2018-09-29 22:29:49,498 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-50
+2018-09-29 22:29:49,498 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-50
+2018-09-29 22:29:50,156 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:50,156 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:50,156 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:50,272 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-51
+2018-09-29 22:29:50,532 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-51
+2018-09-29 22:29:50,532 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-51
+2018-09-29 22:29:51,156 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:51,156 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:51,156 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:51,272 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-52
+2018-09-29 22:29:51,573 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-52
+2018-09-29 22:29:51,573 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-52
+2018-09-29 22:29:52,157 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:52,157 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:52,157 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:52,301 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-53
+2018-09-29 22:29:52,527 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-53
+2018-09-29 22:29:52,527 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-53
+2018-09-29 22:29:53,157 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:53,157 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:53,157 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:53,272 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-54
+2018-09-29 22:29:53,522 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-54
+2018-09-29 22:29:53,522 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-54
+2018-09-29 22:29:54,157 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:54,157 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:54,157 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:54,272 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-55
+2018-09-29 22:29:54,583 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-55
+2018-09-29 22:29:54,583 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-55
+2018-09-29 22:29:55,157 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:55,157 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:55,157 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:55,274 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-56
+2018-09-29 22:29:55,609 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-56
+2018-09-29 22:29:55,609 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-56
+2018-09-29 22:29:56,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:56,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:56,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:56,302 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-57
+2018-09-29 22:29:56,530 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-57
+2018-09-29 22:29:56,530 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-57
+2018-09-29 22:29:57,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:57,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:57,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:57,275 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-58
+2018-09-29 22:29:57,616 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-58
+2018-09-29 22:29:57,616 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-58
+2018-09-29 22:29:58,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:58,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:58,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:58,285 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-59
+2018-09-29 22:29:58,524 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-59
+2018-09-29 22:29:58,525 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-59
+2018-09-29 22:29:59,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:59,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:59,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:29:59,277 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-60
+2018-09-29 22:29:59,518 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-60
+2018-09-29 22:29:59,518 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-60
+2018-09-29 22:30:00,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:00,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:00,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:00,302 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-61
+2018-09-29 22:30:00,437 INFO o.a.j.r.Summariser: summary +     90 in 00:00:30 =    3.0/s Avg:    94 Min:    47 Max:   331 Err:     0 (0.00%) Active: 1 Started: 61 Finished: 60
+2018-09-29 22:30:00,438 INFO o.a.j.r.Summariser: summary =    181 in 00:01:00 =    3.0/s Avg:    93 Min:    47 Max:   331 Err:     0 (0.00%)
+2018-09-29 22:30:00,622 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-61
+2018-09-29 22:30:00,622 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-61
+2018-09-29 22:30:01,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:01,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:01,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:01,284 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-62
+2018-09-29 22:30:01,529 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-62
+2018-09-29 22:30:01,529 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-62
+2018-09-29 22:30:02,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:02,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:02,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:02,286 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-63
+2018-09-29 22:30:02,517 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-63
+2018-09-29 22:30:02,517 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-63
+2018-09-29 22:30:03,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:03,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:03,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:03,285 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-64
+2018-09-29 22:30:03,595 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-64
+2018-09-29 22:30:03,595 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-64
+2018-09-29 22:30:04,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:04,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:04,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:04,302 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-65
+2018-09-29 22:30:04,561 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-65
+2018-09-29 22:30:04,561 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-65
+2018-09-29 22:30:05,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:05,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:05,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:05,285 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-66
+2018-09-29 22:30:05,540 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-66
+2018-09-29 22:30:05,540 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-66
+2018-09-29 22:30:06,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:06,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:06,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:06,286 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-67
+2018-09-29 22:30:06,637 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-67
+2018-09-29 22:30:06,637 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-67
+2018-09-29 22:30:07,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:07,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:07,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:07,285 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-68
+2018-09-29 22:30:07,505 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-68
+2018-09-29 22:30:07,505 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-68
+2018-09-29 22:30:08,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:08,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:08,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:08,302 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-69
+2018-09-29 22:30:08,527 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-69
+2018-09-29 22:30:08,527 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-69
+2018-09-29 22:30:09,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:09,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:09,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:09,296 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-70
+2018-09-29 22:30:09,572 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-70
+2018-09-29 22:30:09,572 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-70
+2018-09-29 22:30:10,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:10,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:10,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:10,308 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-71
+2018-09-29 22:30:10,549 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-71
+2018-09-29 22:30:10,549 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-71
+2018-09-29 22:30:11,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:11,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:11,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:11,307 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-72
+2018-09-29 22:30:11,525 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-72
+2018-09-29 22:30:11,525 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-72
+2018-09-29 22:30:12,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:12,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:12,158 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:12,303 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-73
+2018-09-29 22:30:12,628 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-73
+2018-09-29 22:30:12,628 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-73
+2018-09-29 22:30:13,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:13,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:13,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:13,297 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-74
+2018-09-29 22:30:13,539 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-74
+2018-09-29 22:30:13,539 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-74
+2018-09-29 22:30:14,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:14,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:14,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:14,309 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-75
+2018-09-29 22:30:14,535 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-75
+2018-09-29 22:30:14,535 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-75
+2018-09-29 22:30:15,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:15,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:15,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:15,307 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-76
+2018-09-29 22:30:15,620 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-76
+2018-09-29 22:30:15,620 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-76
+2018-09-29 22:30:16,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:16,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:16,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:16,303 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-77
+2018-09-29 22:30:16,597 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-77
+2018-09-29 22:30:16,597 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-77
+2018-09-29 22:30:17,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:17,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:17,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:17,296 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-78
+2018-09-29 22:30:17,531 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-78
+2018-09-29 22:30:17,532 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-78
+2018-09-29 22:30:18,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:18,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:18,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:18,308 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-79
+2018-09-29 22:30:18,617 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-79
+2018-09-29 22:30:18,617 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-79
+2018-09-29 22:30:19,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:19,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:19,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:19,307 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-80
+2018-09-29 22:30:19,567 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-80
+2018-09-29 22:30:19,567 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-80
+2018-09-29 22:30:20,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:20,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:20,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:20,303 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-81
+2018-09-29 22:30:20,543 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-81
+2018-09-29 22:30:20,543 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-81
+2018-09-29 22:30:21,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:21,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:21,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:21,300 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-82
+2018-09-29 22:30:21,612 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-82
+2018-09-29 22:30:21,613 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-82
+2018-09-29 22:30:22,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:22,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:22,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:22,308 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-83
+2018-09-29 22:30:22,552 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-83
+2018-09-29 22:30:22,552 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-83
+2018-09-29 22:30:23,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:23,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:23,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:23,307 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-84
+2018-09-29 22:30:23,546 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-84
+2018-09-29 22:30:23,546 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-84
+2018-09-29 22:30:24,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:24,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:24,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:24,303 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-85
+2018-09-29 22:30:24,602 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-85
+2018-09-29 22:30:24,602 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-85
+2018-09-29 22:30:25,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:25,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:25,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:25,301 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-86
+2018-09-29 22:30:25,530 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-86
+2018-09-29 22:30:25,530 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-86
+2018-09-29 22:30:26,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:26,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:26,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:26,309 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-87
+2018-09-29 22:30:26,530 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-87
+2018-09-29 22:30:26,531 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-87
+2018-09-29 22:30:27,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:27,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:27,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:27,308 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-88
+2018-09-29 22:30:27,653 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-88
+2018-09-29 22:30:27,653 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-88
+2018-09-29 22:30:28,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:28,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:28,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:28,304 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-89
+2018-09-29 22:30:28,527 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-89
+2018-09-29 22:30:28,527 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-89
+2018-09-29 22:30:29,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:29,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:29,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:29,301 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-90
+2018-09-29 22:30:29,531 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-90
+2018-09-29 22:30:29,531 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-90
+2018-09-29 22:30:30,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:30,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:30,159 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:30,309 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-91
+2018-09-29 22:30:30,422 INFO o.a.j.r.Summariser: summary +     90 in 00:00:30 =    3.0/s Avg:    87 Min:    48 Max:   189 Err:     0 (0.00%) Active: 1 Started: 91 Finished: 90
+2018-09-29 22:30:30,423 INFO o.a.j.r.Summariser: summary =    271 in 00:01:30 =    3.0/s Avg:    91 Min:    47 Max:   331 Err:     0 (0.00%)
+2018-09-29 22:30:30,600 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-91
+2018-09-29 22:30:30,600 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-91
+2018-09-29 22:30:31,160 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:31,160 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:31,160 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:31,309 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-92
+2018-09-29 22:30:31,603 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-92
+2018-09-29 22:30:31,603 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-92
+2018-09-29 22:30:32,160 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:32,160 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:32,160 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:32,304 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-93
+2018-09-29 22:30:32,535 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-93
+2018-09-29 22:30:32,535 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-93
+2018-09-29 22:30:33,160 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:33,160 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:33,160 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:33,301 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-94
+2018-09-29 22:30:33,596 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-94
+2018-09-29 22:30:33,596 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-94
+2018-09-29 22:30:34,160 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:34,160 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:34,160 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:34,309 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-95
+2018-09-29 22:30:34,548 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-95
+2018-09-29 22:30:34,548 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-95
+2018-09-29 22:30:35,160 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:35,160 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:35,160 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:35,309 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-96
+2018-09-29 22:30:35,542 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-96
+2018-09-29 22:30:35,542 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-96
+2018-09-29 22:30:36,160 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:36,160 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:36,160 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:36,309 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-97
+2018-09-29 22:30:36,582 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-97
+2018-09-29 22:30:36,582 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-97
+2018-09-29 22:30:37,160 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:37,160 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:37,160 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:37,303 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-98
+2018-09-29 22:30:37,540 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-98
+2018-09-29 22:30:37,540 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-98
+2018-09-29 22:30:38,160 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:38,160 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:38,160 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:38,309 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-99
+2018-09-29 22:30:38,531 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-99
+2018-09-29 22:30:38,531 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-99
+2018-09-29 22:30:39,160 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:39,160 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:39,160 ERROR k.a.j.p.PerfMonCollector: Perfmon plugin error: java.net.ConnectException: Connection refused: connect
+2018-09-29 22:30:39,309 INFO o.a.j.t.JMeterThread: Thread started: HTTP请求 1-100
+2018-09-29 22:30:39,588 INFO o.a.j.t.JMeterThread: Thread is done: HTTP请求 1-100
+2018-09-29 22:30:39,588 INFO o.a.j.t.JMeterThread: Thread finished: HTTP请求 1-100
+2018-09-29 22:30:39,589 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-09-29 22:30:39,608 INFO o.a.j.r.Summariser: summary +     29 in 00:00:09 =    3.2/s Avg:    85 Min:    47 Max:   134 Err:     0 (0.00%) Active: 0 Started: 100 Finished: 100
+2018-09-29 22:30:39,609 INFO o.a.j.r.Summariser: summary =    300 in 00:01:39 =    3.0/s Avg:    90 Min:    47 Max:   331 Err:     0 (0.00%)
+2018-09-29 22:30:39,612 INFO o.a.j.JMeter: Generating Dashboard
+2018-09-29 22:30:39,612 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2018-09-29 22:30:39,664 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2018-09-29 22:30:39,854 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2018-09-29 22:30:39,854 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2018-09-29 22:30:39,857 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2018-09-29 22:30:39,857 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2018-09-29 22:30:39,862 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2018-09-29 22:30:39,867 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2018-09-29 22:30:39,867 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2018-09-29 22:30:39,867 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2018-09-29 22:30:39,887 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2018-09-29 22:30:39,887 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2018-09-29 22:30:39,887 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2018-09-29 22:30:39,887 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2018-09-29 22:30:39,902 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2018-09-29 22:30:39,902 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 2100 samples
+2018-09-29 22:30:39,902 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2018-09-29 22:30:39,902 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2018-09-29 22:30:39,903 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2018-09-29 22:30:39,903 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2018-09-29 22:30:39,903 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2018-09-29 22:30:39,907 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2018-09-29 22:30:39,908 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2018-09-29 22:30:39,908 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2018-09-29 22:30:39,908 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2018-09-29 22:30:39,908 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 4200 samples
+2018-09-29 22:30:39,908 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 900 samples
+2018-09-29 22:30:39,908 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 300 samples
+2018-09-29 22:30:39,909 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 300 samples produced in 199ms on channel 0
+2018-09-29 22:30:39,909 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2018-09-29 22:30:39,915 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: c:\result
+2018-09-29 22:30:40,015 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: c:\result, creating folder structure
+2018-09-29 22:30:40,775 INFO o.a.j.JMeter: Dashboard generated
